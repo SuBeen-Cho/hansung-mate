@@ -1,0 +1,335 @@
+{
+  "note": "Aggregate admission counts computed from roster tables before the roster rows (masked student numbers and names) were removed from notices-pages.json.",
+  "articles": {
+    "223669": {
+      "destinationColumn": "교차전부(과) 모집단위",
+      "acceptedByPublishedUnit": [
+        {
+          "toUnit": "크리에이티브인문학부",
+          "accepted": 2
+        },
+        {
+          "toUnit": "미래융합사회과학대학",
+          "accepted": 4
+        },
+        {
+          "toUnit": "뷰티디자인매니지먼트학과",
+          "accepted": 1
+        },
+        {
+          "toUnit": "IT공과대학",
+          "accepted": 11
+        }
+      ],
+      "totalAccepted": 18
+    },
+    "222601": {
+      "destinationColumn": "전과(후) 학부",
+      "acceptedByPublishedUnit": [
+        {
+          "toUnit": "크리에이티브인문학부(야)",
+          "accepted": 2
+        },
+        {
+          "toUnit": "미래융합사회과학대학(주)",
+          "accepted": 20
+        },
+        {
+          "toUnit": "미래융합사회과학대학(야)",
+          "accepted": 17
+        },
+        {
+          "toUnit": "글로벌패션산업학부(주)",
+          "accepted": 4
+        },
+        {
+          "toUnit": "글로벌패션산업학부(야)",
+          "accepted": 2
+        },
+        {
+          "toUnit": "뷰티디자인매니지먼트학과(주)",
+          "accepted": 1
+        },
+        {
+          "toUnit": "뷰티디자인매니지먼트학과(야)",
+          "accepted": 1
+        },
+        {
+          "toUnit": "IT공과대학(주)",
+          "accepted": 11
+        },
+        {
+          "toUnit": "IT공과대학(야)",
+          "accepted": 7
+        },
+        {
+          "toUnit": "문학문화콘텐츠학과(야)",
+          "accepted": 3
+        },
+        {
+          "toUnit": "AI응응학과(주)",
+          "accepted": 2
+        },
+        {
+          "toUnit": "융합보안학과(주)",
+          "accepted": 2
+        }
+      ],
+      "totalAccepted": 72
+    },
+    "219665": {
+      "destinationColumn": "교차전부(과) 모집단위",
+      "acceptedByPublishedUnit": [
+        {
+          "toUnit": "크리에이티브인문예술학부(주)",
+          "accepted": 1
+        },
+        {
+          "toUnit": "미래융합사회과학대학(주)",
+          "accepted": 2
+        },
+        {
+          "toUnit": "IT공과대학(주)",
+          "accepted": 6
+        }
+      ],
+      "totalAccepted": 9
+    },
+    "67246": {
+      "destinationColumn": "전과(후) 학부",
+      "acceptedByPublishedUnit": [
+        {
+          "toUnit": "크리에이티브인문학부(주)",
+          "accepted": 5
+        },
+        {
+          "toUnit": "크리에이티브인문학부(야)",
+          "accepted": 2
+        },
+        {
+          "toUnit": "사회과학부(주)",
+          "accepted": 6
+        },
+        {
+          "toUnit": "사회과학부(야)",
+          "accepted": 3
+        },
+        {
+          "toUnit": "글로벌패션산업학부(주)",
+          "accepted": 4
+        },
+        {
+          "toUnit": "뷰티디자인매니지먼트학과(주)",
+          "accepted": 1
+        },
+        {
+          "toUnit": "IT공과대학(주)",
+          "accepted": 2
+        },
+        {
+          "toUnit": "IT공과대학(야)",
+          "accepted": 1
+        },
+        {
+          "toUnit": "융합행정학과(야)",
+          "accepted": 1
+        },
+        {
+          "toUnit": "문학문화콘텐츠학과(주)",
+          "accepted": 2
+        },
+        {
+          "toUnit": "문학문화콘텐츠학과(야)",
+          "accepted": 1
+        }
+      ],
+      "totalAccepted": 28
+    },
+    "66678": {
+      "destinationColumn": "교차전부(과) 모집단위",
+      "acceptedByPublishedUnit": [
+        {
+          "toUnit": "[주]크리에이티브인문학부",
+          "accepted": 2
+        },
+        {
+          "toUnit": "[주]사회과학부",
+          "accepted": 6
+        },
+        {
+          "toUnit": "[주]글로벌패션산업학부",
+          "accepted": 1
+        },
+        {
+          "toUnit": "[주]IT공과대학",
+          "accepted": 9
+        },
+        {
+          "toUnit": "[주]AI응용학과",
+          "accepted": 1
+        }
+      ],
+      "totalAccepted": 19
+    },
+    "66467": {
+      "destinationColumn": "전과(후) 학부",
+      "acceptedByPublishedUnit": [
+        {
+          "toUnit": "[주]크리에이티브인문학부",
+          "accepted": 2
+        },
+        {
+          "toUnit": "[야]크리에이티브인문학부",
+          "accepted": 1
+        },
+        {
+          "toUnit": "[주]사회과학부",
+          "accepted": 25
+        },
+        {
+          "toUnit": "[야]사회과학부",
+          "accepted": 13
+        },
+        {
+          "toUnit": "[주]글로벌패션산업학부",
+          "accepted": 2
+        },
+        {
+          "toUnit": "[야]글로벌패션산업학부",
+          "accepted": 3
+        },
+        {
+          "toUnit": "[주]뷰티디자인매니지먼트학과",
+          "accepted": 1
+        },
+        {
+          "toUnit": "[주]IT공과대학",
+          "accepted": 11
+        },
+        {
+          "toUnit": "[야]IT공과대학",
+          "accepted": 8
+        },
+        {
+          "toUnit": "[주]문학문화콘텐츠학과",
+          "accepted": 2
+        },
+        {
+          "toUnit": "[야]문학문화콘텐츠학과",
+          "accepted": 1
+        },
+        {
+          "toUnit": "[주]AI응용학과",
+          "accepted": 2
+        },
+        {
+          "toUnit": "[주]융합보안학과",
+          "accepted": 3
+        }
+      ],
+      "totalAccepted": 74
+    },
+    "65720": {
+      "destinationColumn": "전과 (후) 학부",
+      "acceptedByPublishedUnit": [
+        {
+          "toUnit": "사회과학부(주)",
+          "accepted": 11
+        },
+        {
+          "toUnit": "사회과학부(야)",
+          "accepted": 4
+        },
+        {
+          "toUnit": "뷰티디자인매니지먼트학과(주)",
+          "accepted": 1
+        },
+        {
+          "toUnit": "IT공과대학(주)",
+          "accepted": 3
+        },
+        {
+          "toUnit": "호텔외식경영학과(야)",
+          "accepted": 1
+        },
+        {
+          "toUnit": "문학문화콘텐츠학과(주)",
+          "accepted": 1
+        },
+        {
+          "toUnit": "AI응용학과(주)",
+          "accepted": 2
+        }
+      ],
+      "totalAccepted": 23
+    },
+    "65927": {
+      "destinationColumn": "교차전부(과) 모집단위",
+      "acceptedByPublishedUnit": [
+        {
+          "toUnit": "[주]크리에이티브인문학부",
+          "accepted": 1
+        },
+        {
+          "toUnit": "[주]사회과학부",
+          "accepted": 2
+        },
+        {
+          "toUnit": "[주]뷰티디자인매니지먼트학과",
+          "accepted": 1
+        },
+        {
+          "toUnit": "[주]IT공과대학",
+          "accepted": 6
+        }
+      ],
+      "totalAccepted": 10
+    },
+    "63668": {
+      "destinationColumn": "전과모집단위",
+      "acceptedByPublishedUnit": [
+        {
+          "toUnit": "크리에이티브인문학부(주)",
+          "accepted": 2
+        },
+        {
+          "toUnit": "크리에이티브인문학부(야)",
+          "accepted": 1
+        },
+        {
+          "toUnit": "사회과학부(주)",
+          "accepted": 4
+        },
+        {
+          "toUnit": "사회과학부(야)",
+          "accepted": 1
+        },
+        {
+          "toUnit": "글로벌패션산업학부(주)",
+          "accepted": 1
+        },
+        {
+          "toUnit": "글로벌패션산업학부(야)",
+          "accepted": 2
+        },
+        {
+          "toUnit": "뷰티디자인매니지먼트학과(주)",
+          "accepted": 2
+        },
+        {
+          "toUnit": "IT공과대학(주)",
+          "accepted": 1
+        },
+        {
+          "toUnit": "뷰티디자인학과(야)",
+          "accepted": 1
+        },
+        {
+          "toUnit": "AI응응학과(주)",
+          "accepted": 1
+        }
+      ],
+      "totalAccepted": 16
+    }
+  }
+}

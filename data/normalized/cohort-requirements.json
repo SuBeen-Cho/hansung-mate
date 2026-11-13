@@ -1,0 +1,124 @@
+{
+ "schemaVersion": "1.0",
+ "source": "2026학년도 2학기 수강신청 안내 및 학업이수가이드(2026-08-06, 학사운영팀) Ⅲ-3 교육과정 이수체계, Ⅱ-8·9, Ⅳ-7·15",
+ "sourceFile": "data/sources/hansung-2026-2/2026-2_수강신청안내_학업이수가이드_260806.pdf",
+ "note": "학번(입학년도)별 공통 졸업 기준. 트랙·학과별 졸업요건(시험·작품·인증)은 별도 graduation-requirements.json.",
+ "graduationCredits": [
+  { "cohorts": "16학번 이후", "fromYear": 2016, "toYear": null, "creditMilli": 130000, "nonCurricularPoints": 800 },
+  { "cohorts": "15학번 이전", "fromYear": null, "toYear": 2015, "creditMilli": 140000, "nonCurricularPoints": null }
+ ],
+ "liberalArts": [
+  {
+   "cohorts": "24학번 이후", "fromYear": 2024, "toYear": null, "totalMilli": 31000,
+   "required": { "creditMilli": 13000, "courses": [
+     { "name": "사고와 표현", "creditMilli": 3000, "note": "1학년 필수" },
+     { "name": "영어커뮤니케이션 독해/작문", "creditMilli": 2000, "note": "1학년 필수" },
+     { "name": "영어커뮤니케이션 청취/회화", "creditMilli": 2000, "note": "1학년 필수" },
+     { "name": "AI와 SW 기초", "creditMilli": 3000, "note": "1학년 필수" },
+     { "name": "한성 이마기난스", "creditMilli": 3000, "note": "1학년 필수 · 상상력인재학부는 AI+X 전공탐색으로 대체(25학번부터)" } ] },
+   "distribution": { "creditMilli": 15000, "minAreas": 4, "areas": ["인문학적 상상력", "사회과학적 상상력", "과학기술 상상력", "예술과 스포츠 상상력", "융합적 상상력"], "rule": "배분이수 5개 영역 중 4개 영역 이상에서 1과목 이상, 총 15학점" },
+   "free": { "creditMilli": 3000, "rule": "일반교양·일반선택 자율 이수" },
+   "notes": ["영어 우수자는 영어커뮤니케이션 면제 가능하나 교양 총 31학점은 이수해야 함"]
+  },
+  {
+   "cohorts": "19~23학번", "fromYear": 2019, "toYear": 2023, "totalMilli": 28000,
+   "required": { "creditMilli": 8000, "creditMilliMax": 10000, "courses": [
+     { "name": "사고와 표현", "creditMilli": 3000, "note": "또는 사고와 표현Ⅰ(읽기와 쓰기)·Ⅱ(발표와 토론) 각 2학점 중 택1 체계" },
+     { "name": "영어커뮤니케이션 독해/작문", "creditMilli": 2000, "note": "필수" },
+     { "name": "영어커뮤니케이션 청취/회화", "creditMilli": 2000, "note": "필수" },
+     { "name": "AI와 SW 기초", "creditMilli": 3000, "note": "또는 문제해결을 위한 코딩 첫걸음(2학점)" } ] },
+   "distribution": { "creditMilli": 7000, "creditMilliMax": 9000, "minAreas": 3, "areas": ["인문학적 상상력", "사회과학적 상상력", "과학기술 상상력", "예술과 스포츠 상상력", "융합적 상상력"], "rule": "배분이수 영역 중 3개 영역에서 1과목 이상" },
+   "free": { "creditMilli": 9000, "creditMilliMax": 13000, "rule": "일반교양·일반선택 자율 이수" },
+   "notes": ["2024년 이전 수강한 디자인씽킹·삶과 꿈·상상력이노베이터와 글로벌 시민의식 및 사회봉사 과목군은 배분이수 영역으로 인정", "폐지 교과목 대체: 디자인씽킹→한성 이마기난스(1학기)/생성형 AI와 디자인씽킹(2학기), 삶과 꿈→삶과 꿈/20대의 심리학, 상상력이노베이터(19학번)→한성 이마기난스/영화로 보는 사회이슈"]
+  },
+  {
+   "cohorts": "17~18학번", "fromYear": 2017, "toYear": 2018, "totalMilli": 22000,
+   "required": { "creditMilli": 16000, "courses": [
+     { "name": "상상력이노베이터", "creditMilli": 2000, "note": "미수강 시 영화로 보는 사회이슈(3)로 이수" },
+     { "name": "사고와 표현Ⅰ", "creditMilli": 2000 },
+     { "name": "사고와 표현Ⅱ", "creditMilli": 2000 },
+     { "name": "영어커뮤니케이션 독해/작문", "creditMilli": 2000 },
+     { "name": "영어커뮤니케이션 청취/회화", "creditMilli": 2000 },
+     { "name": "소프트웨어의 이해", "creditMilli": 2000, "note": "현재 AI와 SW 기초로 이수" },
+     { "name": "디자인", "creditMilli": 2000, "note": "현재 생성형 AI와 디자인씽킹으로 이수" },
+     { "name": "삶과 꿈", "creditMilli": 2000 } ] },
+   "distribution": null,
+   "free": { "creditMilli": 6000, "rule": "자율교양(핵심역량별 개설 과목)" },
+   "notes": ["2023학년도부터 토대교양(트랙기초 6학점) 이수 요건 삭제"]
+  },
+  {
+   "cohorts": "16학번", "fromYear": 2016, "toYear": 2016, "totalMilli": 24000,
+   "required": { "creditMilli": 12000, "courses": [
+     { "name": "사고와 표현Ⅰ", "creditMilli": 2000 },
+     { "name": "사고와 표현Ⅱ", "creditMilli": 2000 },
+     { "name": "영어커뮤니케이션 독해/작문", "creditMilli": 2000 },
+     { "name": "영어커뮤니케이션 청취/회화", "creditMilli": 2000 },
+     { "name": "소프트웨어의 이해", "creditMilli": 2000 },
+     { "name": "디자인", "creditMilli": 2000 } ] },
+   "distribution": null,
+   "free": { "creditMilli": 12000, "rule": "선택필수교양·일반교양(종전 토대/한성인재교양) 구분 없이 12학점 이상" },
+   "notes": ["사회과학대학 토대교양 지정과목 통계학은 폐지로 제외"]
+  },
+  {
+   "cohorts": "10~15학번", "fromYear": 2010, "toYear": 2015, "totalMilli": 22000,
+   "required": { "creditMilli": 10000, "courses": [
+     { "name": "사고와 표현Ⅰ", "creditMilli": 2000 },
+     { "name": "사고와 표현Ⅱ", "creditMilli": 2000 },
+     { "name": "영어커뮤니케이션 A", "creditMilli": 2000 },
+     { "name": "영어커뮤니케이션 B", "creditMilli": 2000 },
+     { "name": "대학과 지성", "creditMilli": 2000, "note": "폐지 · 삶과 꿈 또는 영화로 보는 사회이슈로 대체" } ] },
+   "distribution": null,
+   "free": { "creditMilli": 12000, "rule": "선택필수교양·일반교양(종전 핵심교양A/B) 12학점 이상" },
+   "notes": []
+  },
+  {
+   "cohorts": "06~09학번", "fromYear": 2006, "toYear": 2009, "totalMilli": 24000,
+   "required": { "creditMilli": 12000, "courses": [
+     { "name": "사고와 표현Ⅰ", "creditMilli": 2000 },
+     { "name": "사고와 표현Ⅱ", "creditMilli": 2000 },
+     { "name": "영어커뮤니케이션 A", "creditMilli": 2000 },
+     { "name": "영어커뮤니케이션 B", "creditMilli": 2000 },
+     { "name": "컴퓨터와 인터넷개론", "creditMilli": 2000, "note": "컴퓨터와 ICT 기술의 이해로 이수" },
+     { "name": "대학과 지성", "creditMilli": 2000, "note": "폐지 · 대체과목 이수" } ] },
+   "distribution": null,
+   "free": { "creditMilli": 12000, "rule": "12학점 이상" },
+   "notes": ["공과대학(06~10학번) 핵심교양A 지정: 일반물리Ⅰ, 미분적분학(대학수학Ⅱ)"]
+  },
+  {
+   "cohorts": "05학번 이전", "fromYear": null, "toYear": 2005, "totalMilli": 19000,
+   "required": { "creditMilli": 8000, "courses": [
+     { "name": "영어커뮤니케이션 A", "creditMilli": 2000 },
+     { "name": "영어커뮤니케이션 B", "creditMilli": 2000 },
+     { "name": "컴퓨터와 인터넷개론", "creditMilli": 2000 },
+     { "name": "사고와 표현", "creditMilli": 2000 } ] },
+   "distribution": null,
+   "free": { "creditMilli": 11000, "rule": "11학점 이상" },
+   "notes": []
+  }
+ ],
+ "majorPre2016": {
+  "trackSystem": { "cohorts": "16학번 이전 트랙제 선택자", "fusionI": 39000, "fusionIIMain": 57000, "minor": 21000, "deep": 78000, "note": "이수구분 상관없이 전공 학점 이수" },
+  "departmentSystem": [
+   { "type": "심화전공(일반) 인문대·사과대", "creditMilli": 78000 },
+   { "type": "심화전공(일반) 예술대·공과대", "creditMilli": 81000 },
+   { "type": "심화전공(산학협력/글로벌리더)", "creditMilli": 90000 },
+   { "type": "복수(연계)전공 주전공 + 제2전공", "creditMilli": 39000, "secondMilli": 39000 },
+   { "type": "부전공 주전공 + 제2전공", "creditMilli": 57000, "secondMilli": 21000 },
+   { "type": "단일전공(05학번 이전만)", "creditMilli": 72000 }
+  ]
+ },
+ "transfer": [
+  { "type": "일반편입학", "cohorts": "16학번 이후", "creditMilli": 130000, "nonCurricularPoints": 400, "minSemesters": 4 },
+  { "type": "일반편입학", "cohorts": "15학번 이전", "creditMilli": 140000, "nonCurricularPoints": null, "minSemesters": 4 },
+  { "type": "학사편입학", "cohorts": "16학번 이후", "creditMilli": 65000, "nonCurricularPoints": 400, "minSemesters": 4 },
+  { "type": "학사편입학", "cohorts": "15학번 이전", "creditMilli": 70000, "nonCurricularPoints": null, "minSemesters": 4 }
+ ],
+ "semesterRules": {
+  "creditRange": { "minMilli": 6000, "maxMilli": 18000, "bonusMilli": 3000, "bonusRule": "직전학기 평점 4.0 이상·F 없음" },
+  "carryOver": { "maxMilli": 3000, "rule": "학기당 최대 취득학점보다 적게 신청한 잔여학점을 3학점 범위에서 다음 학기로 이월(16학번 이후 기준 18학점)" },
+  "summerWinter": { "maxMilliPerSession": 6000, "rule": "계절학기당 최대 6학점, 졸업학점·총 평점에만 반영, 계절학기 재수강은 12학점 제한에 미포함, 조기졸업자는 재학 중 3회 이내" },
+  "retake": { "gradeAtMost": "C+", "perSemesterMilli": 3000, "totalMilli": 12000, "maxGrade": "A", "rule": "4학년은 학기 제한 없이 총 12학점, 11학번 이후 F 재수강 가능(12학점 제한 미포함)" },
+  "creditForfeit": { "rule": "7·8학기 등록자 중 졸업학점에 문제 없는 학생, 2015-1학기 이후 취득 학점·F·학점교류·편입 인정 학점은 포기 불가" },
+  "externalElearning": { "maxMilliPerSemester": 6000 }
+ }
+}

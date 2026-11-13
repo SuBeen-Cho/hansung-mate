@@ -1,0 +1,560 @@
+{
+  "schemaVersion": "1.0",
+  "collectedAt": "2026-11-11",
+  "note": "한성대 공개 페이지·한성대신문에서 확인한 예약 창구, 공간 규칙, 대여 물품. verified=false 항목은 공개 자료에 없어 데모용으로 정한 값이다.",
+  "sources": [
+    {
+      "id": "learning",
+      "title": "시설 이용/예약 – 학습공간",
+      "url": "https://www.hansung.ac.kr/hansung/6161/subview.do"
+    },
+    {
+      "id": "sports",
+      "title": "시설 이용/예약 – 체육공간",
+      "url": "https://www.hansung.ac.kr/hansung/6318/subview.do"
+    },
+    {
+      "id": "halls",
+      "title": "시설 이용/예약 – 강당 및 행사공간",
+      "url": "https://www.hansung.ac.kr/hansung/6321/subview.do"
+    },
+    {
+      "id": "rooms",
+      "title": "시설 이용/예약 – 빈강의실 현황",
+      "url": "https://www.hansung.ac.kr/hansung/6164/subview.do"
+    },
+    {
+      "id": "news607",
+      "title": "한성대신문 607호 〈새내기 기획〉 조별 과제에 최적화된 명당을 '찜'해보자 (2025.1.27)",
+      "url": "https://www.hansungnews.com/article/view/1992"
+    },
+    {
+      "id": "news599",
+      "title": "한성대신문 599호 학복위 대여·주차권, 학생회비 내야 이용 가능 (2024.4.22)",
+      "url": "https://hansungnews.com/article/view/1837"
+    },
+    {
+      "id": "news624",
+      "title": "한성대신문 624호 학생회 감사 결과 (2026.8.31)",
+      "url": "https://archive.hansung.news/624.pdf"
+    },
+    {
+      "id": "townhall",
+      "title": "제5회 한성대 타운홀 미팅 (2026.4.30) – 단과대학 기자재 대여 시스템 개선 논의",
+      "url": "https://dhnews.co.kr/news/view/1065571682864159"
+    },
+    {
+      "id": "parkgear",
+      "title": "상상파크 보유 기자재 목록",
+      "url": "https://hansung.ac.kr/cncschool/4178/subview.do"
+    },
+    {
+      "id": "parkrent",
+      "title": "상상파크 기자재 예약 안내",
+      "url": "https://hansung.ac.kr/cncschool/4156/subview.do"
+    },
+    {
+      "id": "itlaptop",
+      "title": "노트북 대여 안내 – 상상관 309호 통합기자재실",
+      "url": "https://hansung.ac.kr/hansung/6306/subview.do"
+    }
+  ],
+  "channels": [
+    {
+      "id": "onestop",
+      "name": "학생원스톱지원센터 자원예약",
+      "covers": [
+        "상상베이스 세미나실",
+        "상상베이스 그룹스터디룸"
+      ],
+      "method": "ONLINE",
+      "url": "https://www.hansung.ac.kr/onestop/5920/subview.do",
+      "phone": "02-760-8000",
+      "source": "learning"
+    },
+    {
+      "id": "hsel-group",
+      "name": "학술정보관 그룹스터디실 예약",
+      "covers": [
+        "학술정보관 그룹스터디실(3~6층)"
+      ],
+      "method": "ONLINE",
+      "url": "https://www.hansung.ac.kr/hsel/9611/subview.do",
+      "phone": "02-760-5667",
+      "source": "learning"
+    },
+    {
+      "id": "hsel-seat",
+      "name": "학술정보관 좌석 예약",
+      "covers": [
+        "집중열람실",
+        "우촌관 열람실"
+      ],
+      "method": "ONLINE",
+      "url": "https://hsel.hansung.ac.kr/home_login_write.mir",
+      "phone": null,
+      "source": "learning"
+    },
+    {
+      "id": "parkplus",
+      "name": "창의융합교육지원센터 – 상상파크플러스 소모임실",
+      "covers": [
+        "상상파크플러스 소모임실"
+      ],
+      "method": "ONLINE",
+      "url": "https://www.hansung.ac.kr/cncschool/4181/subview.do",
+      "phone": null,
+      "source": "learning"
+    },
+    {
+      "id": "park-gear",
+      "name": "창의융합교육지원센터 – 상상파크 기자재·제작실",
+      "covers": [
+        "크리에이티브 스튜디오",
+        "디지털 머신룸",
+        "핸드크래프트룸",
+        "기자재 대여"
+      ],
+      "method": "ONLINE",
+      "url": "https://www.hansung.ac.kr/cncschool/4178/subview.do",
+      "phone": "02-760-8042",
+      "source": "learning"
+    },
+    {
+      "id": "park-studio",
+      "name": "창의융합교육지원센터 – 촬영·콘텐츠 제작실",
+      "covers": [
+        "디지털 스튜디오",
+        "실기 수업 콘텐츠 제작실",
+        "미디어 콘텐츠 제작실"
+      ],
+      "method": "ONLINE",
+      "url": "https://hansung.ac.kr/cncschool/4210/subview.do",
+      "phone": "02-760-8001",
+      "source": "learning"
+    },
+    {
+      "id": "coding",
+      "name": "스마트융합교육센터 – 코딩라운지",
+      "covers": [
+        "코딩라운지 세미나실 101~113호"
+      ],
+      "method": "ONLINE",
+      "url": "https://www.hansung.ac.kr/cncschool/4182/subview.do",
+      "phone": null,
+      "source": "learning"
+    },
+    {
+      "id": "career",
+      "name": "진로취업 – AI면접실",
+      "covers": [
+        "AI면접실"
+      ],
+      "method": "ONLINE",
+      "url": "https://career.hansung.ac.kr/ko/commu/space",
+      "phone": "02-760-4224",
+      "source": "learning"
+    },
+    {
+      "id": "industry",
+      "name": "산학협력단 – 산학협력 세미나실",
+      "covers": [
+        "탐구관 B105 산학협력 세미나실"
+      ],
+      "method": "ONLINE",
+      "url": null,
+      "phone": null,
+      "source": "news607"
+    },
+    {
+      "id": "gym",
+      "name": "학생복지팀 – 체육관 대관",
+      "covers": [
+        "낙산관 체육관",
+        "상상관 체육관",
+        "풋살장"
+      ],
+      "method": "FORM",
+      "url": "https://www.hansung.ac.kr/hansung/6318/subview.do",
+      "phone": "02-760-4221",
+      "source": "sports"
+    },
+    {
+      "id": "hall",
+      "name": "IT인프라팀 – 강당·행사공간",
+      "covers": [
+        "낙산관 대강당",
+        "창의관 소강당",
+        "미래관 DLC",
+        "상상관 컨퍼런스홀",
+        "상상관홀"
+      ],
+      "method": "E_APPROVAL",
+      "url": "https://www.hansung.ac.kr/hansung/6321/subview.do",
+      "phone": "02-760-4003",
+      "source": "halls"
+    },
+    {
+      "id": "classroom",
+      "name": "학사운영팀 확인 → IT인프라팀 신청서",
+      "covers": [
+        "빈 강의실(미래관·우촌관·탐구관·진리관)"
+      ],
+      "method": "FORM",
+      "url": "https://www.hansung.ac.kr/hansung/6164/subview.do",
+      "phone": null,
+      "source": "rooms"
+    }
+  ],
+  "spaceRules": {
+    "base-seminar": {
+      "maxHoursPerDay": 3,
+      "minPeople": 6,
+      "needsAllStudentIds": true,
+      "source": "news607"
+    },
+    "base-ib101": {
+      "maxHoursPerDay": 3,
+      "minPeople": 3,
+      "needsAllStudentIds": true,
+      "source": "news607"
+    },
+    "base-ib102": {
+      "maxHoursPerDay": 3,
+      "minPeople": 3,
+      "needsAllStudentIds": true,
+      "source": "news607"
+    },
+    "base-ib103": {
+      "maxHoursPerDay": 3,
+      "minPeople": 3,
+      "needsAllStudentIds": true,
+      "source": "news607"
+    },
+    "base-ib104": {
+      "maxHoursPerDay": 3,
+      "minPeople": 3,
+      "needsAllStudentIds": true,
+      "source": "news607"
+    },
+    "library-group": {
+      "maxHoursPerDay": 3,
+      "minPeople": 3,
+      "lateRule": "30분 이상 지각·미입실 시 당일 이용 제한, 3회 이상이면 한 학기 이용 제한",
+      "source": "news607"
+    },
+    "parkplus-room": {
+      "maxHoursPerDay": 3,
+      "minPeople": null,
+      "equipmentNote": "빔프로젝터는 공간과 별도로 기자재 예약",
+      "source": "news607"
+    }
+  },
+  "extraSpaces": [
+    {
+      "id": "gym-naksan",
+      "name": "낙산관 체육관",
+      "channel": "gym",
+      "capacityMin": 5,
+      "rules": [
+        "전월 1~15일 우선 신청 (예: 12월 대관은 11월 1~15일)",
+        "평일 16:30 이후 (한성여중 사용 시간 제외)",
+        "학기 중 일 최대 3시간·주 1회, 방학 중 주 2회",
+        "당일 대관 불가",
+        "공식 동아리·수업·행사는 예외"
+      ],
+      "applyWindow": {
+        "type": "PREVIOUS_MONTH",
+        "fromDay": 1,
+        "toDay": 15
+      },
+      "source": "sports"
+    },
+    {
+      "id": "gym-sangsang",
+      "name": "상상관 체육관",
+      "channel": "gym",
+      "capacityMin": null,
+      "rules": [
+        "세부 규정 비공개 · 학생복지팀 문의"
+      ],
+      "source": "sports"
+    },
+    {
+      "id": "futsal",
+      "name": "풋살장",
+      "channel": "gym",
+      "capacityMin": null,
+      "rules": [
+        "세부 규정 비공개 · 학생복지팀 문의"
+      ],
+      "source": "sports"
+    },
+    {
+      "id": "hall-naksan",
+      "name": "낙산관 대강당",
+      "channel": "hall",
+      "capacityMin": 150,
+      "rules": [
+        "최소 2주 전 전자결재 신청 (수신 IT인프라팀)",
+        "150명 이상 행사",
+        "행사 간격 최소 1시간",
+        "음식·음료 금지"
+      ],
+      "source": "halls"
+    },
+    {
+      "id": "hall-small",
+      "name": "창의관 소강당",
+      "channel": "hall",
+      "capacityMin": null,
+      "rules": [
+        "전자결재 신청",
+        "조정실 임의 조작 금지"
+      ],
+      "source": "halls"
+    },
+    {
+      "id": "hall-conference",
+      "name": "상상관 12층 컨퍼런스홀",
+      "channel": "hall",
+      "capacityMin": null,
+      "rules": [
+        "전자결재 신청"
+      ],
+      "source": "halls"
+    },
+    {
+      "id": "industry-b105",
+      "name": "탐구관 B105 산학협력 세미나실",
+      "channel": "industry",
+      "capacityMin": null,
+      "capacityMax": 12,
+      "rules": [
+        "학기·방학 평일 09~22시",
+        "본교 구성원 누구나 (산학 프로젝트 우선)"
+      ],
+      "source": "news607"
+    },
+    {
+      "id": "ai-interview",
+      "name": "AI면접실",
+      "channel": "career",
+      "capacityMin": null,
+      "rules": [
+        "진로취업 사이트에서 예약"
+      ],
+      "source": "learning"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "laptop",
+      "name": "노트북 (MSI·삼성·레노버)",
+      "category": "노트북",
+      "qty": 8,
+      "qtyVerified": false,
+      "location": "스마트융합교육센터",
+      "maxDays": 1,
+      "rule": "당일 반납 원칙",
+      "source": "parkgear"
+    },
+    {
+      "id": "monitor",
+      "name": "포터블 모니터 알파스캔 16F90P",
+      "category": "모니터",
+      "qty": 30,
+      "qtyVerified": true,
+      "location": "스마트융합교육센터",
+      "maxDays": 7,
+      "rule": "최대 7일 대여",
+      "source": "parkgear"
+    },
+    {
+      "id": "camera",
+      "name": "미러리스 카메라 소니 ILCE-6400",
+      "category": "촬영",
+      "qty": 10,
+      "qtyVerified": true,
+      "location": "스마트융합교육센터",
+      "maxDays": 1,
+      "rule": "당일 반납 원칙",
+      "source": "parkgear"
+    },
+    {
+      "id": "cam360",
+      "name": "Insta360 EVO",
+      "category": "촬영",
+      "qty": 4,
+      "qtyVerified": true,
+      "location": "스마트융합교육센터",
+      "maxDays": 1,
+      "rule": "당일 반납 원칙",
+      "source": "parkgear"
+    },
+    {
+      "id": "camcorder",
+      "name": "캠코더 소니 FDR-AX700",
+      "category": "촬영",
+      "qty": 2,
+      "qtyVerified": true,
+      "location": "스마트융합교육센터",
+      "maxDays": 1,
+      "rule": "당일 반납 원칙",
+      "source": "parkgear"
+    },
+    {
+      "id": "vr-quest",
+      "name": "VR 오큘러스 퀘스트",
+      "category": "VR",
+      "qty": 7,
+      "qtyVerified": true,
+      "location": "스마트융합교육센터",
+      "maxDays": 1,
+      "rule": "당일 반납 원칙",
+      "source": "parkgear"
+    },
+    {
+      "id": "vr-rift",
+      "name": "VR 오큘러스 리프트 S",
+      "category": "VR",
+      "qty": 10,
+      "qtyVerified": true,
+      "location": "스마트융합교육센터",
+      "maxDays": 1,
+      "rule": "당일 반납 원칙",
+      "source": "parkgear"
+    },
+    {
+      "id": "printer3d",
+      "name": "3D프린터 이용 (밤부랩 P1S 외)",
+      "category": "제작",
+      "qty": 26,
+      "qtyVerified": true,
+      "location": "상상파크 B1 크리에이티브 스튜디오",
+      "maxDays": 1,
+      "rule": "제작실 예약 · 현장 이용",
+      "onsite": true,
+      "source": "parkgear"
+    },
+    {
+      "id": "laser",
+      "name": "레이저 커팅기 LD-1390",
+      "category": "제작",
+      "qty": 2,
+      "qtyVerified": true,
+      "location": "상상파크 B1 디지털 머신 룸",
+      "maxDays": 1,
+      "rule": "제작실 예약 · 현장 이용",
+      "onsite": true,
+      "source": "parkgear"
+    },
+    {
+      "id": "projector",
+      "name": "빔프로젝터 (상상파크플러스 소모임실용)",
+      "category": "발표",
+      "qty": 3,
+      "qtyVerified": false,
+      "location": "상상파크플러스",
+      "maxDays": 1,
+      "rule": "공간 예약과 별도 예약 필요",
+      "source": "news607"
+    }
+  ],
+  "equipmentHours": {
+    "term": [
+      "09:00",
+      "20:00"
+    ],
+    "vacation": [
+      "10:00",
+      "15:00"
+    ],
+    "weekdaysOnly": true,
+    "source": "parkrent"
+  },
+  "councilItems": {
+    "operator": "총학생회 학생복지위원회",
+    "eligibility": "학생회비 납부자 (2024.4.1부터)",
+    "source": "news599",
+    "items": [
+      {
+        "id": "umbrella",
+        "name": "우산",
+        "qty": 30,
+        "qtyVerified": false,
+        "maxDays": 2
+      },
+      {
+        "id": "calculator",
+        "name": "공학용 계산기",
+        "qty": 15,
+        "qtyVerified": false,
+        "maxDays": 1
+      },
+      {
+        "id": "charger",
+        "name": "노트북·휴대폰 충전기",
+        "qty": 20,
+        "qtyVerified": false,
+        "maxDays": 1
+      },
+      {
+        "id": "battery",
+        "name": "보조배터리",
+        "qty": 20,
+        "qtyVerified": false,
+        "maxDays": 1
+      }
+    ]
+  },
+  "pressure": [
+    {
+      "fact": "학습공간 예약만 9곳 이상 다른 사이트로 나뉘어 있고, 체육관은 한글 서식, 강당은 전자결재, 빈 강의실은 두 부서를 거친다",
+      "source": "learning"
+    },
+    {
+      "fact": "2026.4.30 타운홀 미팅 12개 안건에 '단과대학 기자재 대여 시스템 개선'과 '고시반 수용 정원 확대'가 포함됐다",
+      "source": "townhall"
+    },
+    {
+      "fact": "2026년 학생회 감사에서 주의 29건·경고 11건, 사유로 참여명단 양식 오용·수기명단 조작·직인 누락이 나왔다",
+      "source": "news624"
+    },
+    {
+      "fact": "학생복지위원회 물품 대여가 2024.4.1부터 학생회비 납부자 한정으로 바뀌며 학생 불만이 나왔다",
+      "source": "news599"
+    }
+  ],
+  "itRoom": {
+    "name": "통합기자재실",
+    "location": "상상관 3층 309호",
+    "phone": "02-760-4001",
+    "hours": {
+      "term": [
+        "09:00",
+        "20:30"
+      ],
+      "vacation": [
+        "10:00",
+        "15:30"
+      ]
+    },
+    "weekdaysOnly": true,
+    "eligibility": "본교 재학생 · 학생증(신분증) 확인",
+    "penalty": "연체·대리 반납 등 경고 누적 시 6개월 대여 금지",
+    "items": [
+      {
+        "id": "it-laptop",
+        "name": "노트북 (삼성 i5 8세대)",
+        "category": "노트북",
+        "qty": 120,
+        "qtyVerified": true,
+        "maxDays": 1,
+        "rule": "당일 대여·당일 반납 · 1인 1대 · 반납 때 관리자 입회 작동 확인",
+        "onePerPerson": true
+      }
+    ],
+    "source": "itlaptop"
+  }
+}

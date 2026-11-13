@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "installCommand": "npx pnpm@12.5.1 install --frozen-lockfile",
+  "buildCommand": "npx pnpm@12.5.1 build:packages && npx pnpm@12.5.1 --filter @hansung/web build",
+  "outputDirectory": "apps/web/dist"
+}

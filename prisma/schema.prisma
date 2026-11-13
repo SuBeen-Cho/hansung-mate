@@ -1,0 +1,107 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum RulePackState {
+  DEMO
+  DRAFT
+  REVIEWED
+  PUBLISHED
+  SUPERSEDED
+}
+
+enum SimulationState {
+  PENDING
+  COMPLETED
+  FAILED
+  SEARCH_INCOMPLETE
+}
+
+model User {
+  id          String    @id @default(uuid()) @db.Uuid
+  authSubject String    @unique @map("auth_subject")
+  displayName String?   @map("display_name")
+  isDemo      Boolean   @default(false) @map("is_demo")
+  createdAt   DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt   DateTime  @updatedAt @map("updated_at") @db.Timestamptz
+  profiles    AcademicProfile[]
+  scenarios   Scenario[]
+
+  @@map("users")
+}
+
+model AcademicProfile {
+  id             String   @id @default(uuid()) @db.Uuid
+  ownerId        String   @map("owner_id") @db.Uuid
+  admissionType  String   @map("admission_type")
+  admissionYear  Int      @map("admission_year")
+  curriculumYear Int?     @map("curriculum_year")
+  currentProgram String?   @map("current_program")
+  track1         String?
+  track2         String?
+  revision       Int      @default(1)
+  createdAt      DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt      DateTime @updatedAt @map("updated_at") @db.Timestamptz
+  owner          User     @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+
+  @@index([ownerId, updatedAt])
+  @@map("academic_profiles")
+}
+
+model RulePack {
+  id             String        @id @default(uuid()) @db.Uuid
+  key            String
+  version        Int
+  state          RulePackState
+  scopeJson      Json          @map("scope_json")
+  effectiveFrom  DateTime?     @map("effective_from") @db.Date
+  effectiveTo    DateTime?     @map("effective_to") @db.Date
+  hash           String
+  isDemo         Boolean       @default(false) @map("is_demo")
+  createdAt      DateTime      @default(now()) @map("created_at") @db.Timestamptz
+  scenarios      Scenario[]
+
+  @@unique([key, version])
+  @@map("rule_packs")
+}
+
+model Scenario {
+  id              String          @id @default(uuid()) @db.Uuid
+  ownerId         String          @map("owner_id") @db.Uuid
+  rulePackId      String          @map("rule_pack_id") @db.Uuid
+  recordVersionId String          @map("record_version_id")
+  goalJson        Json            @map("goal_json")
+  assumptionsJson Json            @map("assumptions_json")
+  revision        Int             @default(1)
+  isDemo          Boolean         @default(false) @map("is_demo")
+  createdAt       DateTime        @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt       DateTime        @updatedAt @map("updated_at") @db.Timestamptz
+  owner           User            @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  rulePack        RulePack        @relation(fields: [rulePackId], references: [id])
+  runs            SimulationRun[]
+
+  @@index([ownerId, updatedAt])
+  @@unique([id, revision])
+  @@map("scenarios")
+}
+
+model SimulationRun {
+  id               String          @id @default(uuid()) @db.Uuid
+  scenarioId       String          @map("scenario_id") @db.Uuid
+  scenarioRevision Int             @map("scenario_revision")
+  inputHash        String          @map("input_hash")
+  engineVersion    String          @map("engine_version")
+  state            SimulationState
+  resultJson       Json?           @map("result_json")
+  createdAt        DateTime        @default(now()) @map("created_at") @db.Timestamptz
+  scenario         Scenario        @relation(fields: [scenarioId], references: [id], onDelete: Cascade)
+
+  @@unique([scenarioId, scenarioRevision, inputHash, engineVersion])
+  @@index([scenarioId, createdAt])
+  @@map("simulation_runs")
+}

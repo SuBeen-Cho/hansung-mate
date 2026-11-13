@@ -1,0 +1,34 @@
+{
+  "name": "hansung-mate-campus",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.5.1",
+  "engines": {
+    "node": "^22.12.0 || ^24.0.0 || >=26.0.0"
+  },
+  "scripts": {
+    "build:catalog": "node scripts/normalize-catalog.mjs",
+    "build:packages": "pnpm --filter @hansung/contracts --filter @hansung/design-tokens --filter @hansung/academic-engine build",
+    "dev": "pnpm build:packages && pnpm --parallel --filter @hansung/api --filter @hansung/web dev",
+    "dev:web": "pnpm build:packages && pnpm --filter @hansung/web dev",
+    "dev:api": "pnpm build:packages && pnpm --filter @hansung/api dev",
+    "build": "pnpm build:catalog && pnpm build:packages && pnpm --filter @hansung/api build && pnpm --filter @hansung/web build",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "lint": "biome check apps/*/src packages/*/src scripts prisma.config.ts",
+    "format": "biome check --write apps/*/src packages/*/src scripts prisma.config.ts",
+    "test": "pnpm test:engine && pnpm test:integration && pnpm test:ui",
+    "test:engine": "pnpm --filter @hansung/academic-engine test",
+    "test:integration": "pnpm --filter @hansung/api test",
+    "test:ui": "pnpm --filter @hansung/web test",
+    "db:validate": "node scripts/run-prisma.mjs validate",
+    "db:generate": "node scripts/run-prisma.mjs generate"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.4",
+    "dotenv": "17.2.2",
+    "prisma": "7.10.0",
+    "typescript": "~6.0.3",
+    "vitest": "4.0.18"
+  }
+}
